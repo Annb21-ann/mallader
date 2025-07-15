@@ -11,6 +11,7 @@ body {
 
 h1 {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 #malla {
@@ -31,24 +32,26 @@ h1 {
   cursor: pointer;
   transition: transform 0.2s, opacity 0.2s;
   opacity: 0.4;
+  border: 2px solid transparent;
 }
 
 .ramo.activo {
   opacity: 1;
   transform: scale(1.03);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-color: #00000030;
 }
 
 /* Colores por área */
-.publico { background: #60a5fa; } /* celeste */
-.civil { background: #f472b6; } /* rosa */
-.ciencias { background: #065f46; } /* verde oscuro */
-.procesal { background: #9ca3af; } /* gris */
-economia { background: #1e3a8a; } /* azul oscuro */
-.penal { background: #7c3aed; } /* morado */
-.clinica { background: #84cc16; } /* verde limón */
-integradores { background: #facc15; } /* amarillo fuerte */
-electivo { background: #4b5563; } /* gris oscuro */
-general { background: #a16207; } /* café claro */
-ingles { background: #f97316; } /* naranjo */
-.final { background: #dc2626; } /* rojo */
+.publico      { background: #60a5fa; } /* celeste */
+.civil        { background: #f472b6; } /* rosa */
+.ciencias     { background: #065f46; } /* verde oscuro */
+.procesal     { background: #9ca3af; } /* gris */
+.economia     { background: #1e3a8a; } /* azul oscuro */
+.penal        { background: #7c3aed; } /* morado */
+.clinica      { background: #84cc16; } /* verde limón */
+.integradores { background: #facc15; } /* amarillo fuerte */
+.electivo     { background: #4b5563; } /* gris oscuro */
+.general      { background: #a16207; } /* café claro */
+.ingles       { background: #f97316; } /* naranjo */
+.final        { background: #dc2626; } /* rojo */
